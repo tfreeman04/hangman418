@@ -9,7 +9,7 @@ def choice (word_list):
 word = choice(word_list)
 # testing choice method 
 #print(word)
-guess = input("Please enter a single letter")
+guess = input("Please enter a single letter: ")
 if len(guess) == 1 and type(guess) == str:
     print("Good guess!")
 else:
